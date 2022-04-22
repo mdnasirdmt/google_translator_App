@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+       
+    <style>
+        #container{
+            display: flex;
+            border: solid 1px black;
+        }
+        #input,
+        #output{
+            flex:1;
+
+            margin:5%;
+            height: 300px;
+            border: solid 1px black;
+        }
+        #input-text{
+            width: 90%;
+            height: 250px;
+        }
+      
+    </style>
+</head>
+<body>
+    <h1>2nd class on oops and class object </h1>
+
+    <div id="container" >
+
+        <div id="input" >
+
+            <select name="inp_lang" id="inp_lang">
+
+                <option value="en">English</option>
+                <option value="hi">Hindi</option>
+            </select>
+
+            <button onclick="Translate()" >Translate</button>
+            <textarea name="input-text" id="input-text"></textarea>
+        </div>
+
+        <div id="output" >
+
+            <select name="out_lang" id="out_lang">
+                <option value="hi">Hindi</option>
+                <option value="en">English</option>
+            </select>
+
+            <!-- <button onclick="Translate()" >Translate</button> -->
+            <textarea name="output-text" id="output-text"></textarea>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
+
+<script src="/index.js" ></script>
